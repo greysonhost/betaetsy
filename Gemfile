@@ -14,6 +14,8 @@
   gem 'spring'
   gem 'bootstrap-sass', '~> 3.3.5'
   gem "paperclip","~> 4.3"
+  gem "paperclip-dropbox", ">= 1.1.7"
+  gem "figaro"
   
   group :production do
     gem 'pg'
